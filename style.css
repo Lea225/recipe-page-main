@@ -1,0 +1,82 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    color: hsl(30, 10%, 34%);
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: 'Outfit',sans-serif;
+    background-color: hsl(330, 100%, 98%);
+}
+.image-omelette{
+    border-radius: 10px;
+    max-width: 100%;
+}
+h1,h3,h4,h5{
+    font-family: 'Young Serif',sans-serif;
+}
+h2,h3,h4,h5{
+    color: hsl(4.67, 45.76%, 39.02%);
+}
+h2,h3,h4{
+    padding-left: 20px;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.2em;
+}
+h3,h4,h5{
+    font-size: 1.5em;
+}
+span{
+    font-weight: bold;
+}
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+section{
+    width: 45%;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+ul,ol,p{
+    line-height: 5vh;
+}
+.num{
+    margin-right: 10px;
+}
+.preparation{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(330, 100%, 98%);
+}
+.value,.last-value,.num{
+    font-weight: bold;
+    color: hsl(4.67, 45.76%, 39.02%);
+}
+.last-border,.last-value{
+    border: none;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+@media screen and (max-width: 1000px) {
+    section{
+        padding: 0;
+        width: 80%;
+    }
+    .card-body{
+        padding: 0 30px;
+    }
+    .image-omelette{
+        border-radius: 0;
+    }
+}
